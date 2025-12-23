@@ -8,3 +8,9 @@ pero hubo cambios de último momento.
 Buscá en qué posición está o simplemente eliminala. 
 Desafío: Usá .pop() si está última, o investigá cómo sacar una del medio.
 4.	Mostrá la lista final de la mesa dulce por consola.*/
+
+let postres = ["Pan Dulce", "Turron", "Garrapinada"]; 
+postres.push("Helado"); 
+console.log(postres);
+postres.splice(2, 1); 
+console.log("La mesa dulce final se compone de:", postres);

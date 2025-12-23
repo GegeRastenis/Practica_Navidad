@@ -7,3 +7,17 @@ Ejercicio: Adiviná el regalo sorpresa Vamos a jugar a adivinar qué hay en la c
 a la palabra secreta, volvé a pedirle que intente de nuevo.
 4.	Cuando acierte (salga del bucle), mostrá un alert o console.log: 
 "¡Adivinaste! Disfrutalo  🎁".*/
+
+const prompt = require("prompt-sync")(); 
+
+const palabraSecreta = "perfume"; 
+
+let mensaje = prompt("Adivina el regalo que te trajo Papa Noel: "); 
+
+
+while(mensaje !== palabraSecreta){
+    console.log("No has acertado... Vuelve a intentarlo");
+    mensaje = prompt("Adivina el regalo que te trajo Papa Noel: ")
+    
+}
+console.log("¡Adivinaste! Disfrutalo  🎁");
