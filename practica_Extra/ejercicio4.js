@@ -1,7 +1,7 @@
 /*Given a string, return the first character that is repeated.
 If there are no repeated characters, return null.
 
-Ejemplos:
+Examples:
 
 firstRepeatedChar("abca");   // "a"
 firstRepeatedChar("abcdef"); // null

@@ -1,6 +1,6 @@
 /*Given an array of numbers, return how many of them are greater than 10.
 
-Ejemplo:
+Example:
 
 countGreaterThanTen([5, 12, 8, 20, 3]); // 2*/
 

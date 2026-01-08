@@ -7,9 +7,6 @@ countVowels("IBM")        // 1
 countVowels("aeiou")      // 5
 countVowels("")           // 0*/
 
-
-
-
 function countVowels(word){
     let vowels = ['a', 'e', 'i', 'o', 'u']; 
     let count = 0;
